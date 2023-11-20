@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './chat.component.html',
   styleUrls: ['./chat.component.scss']
 })
-export class ChatComponent {
+export class ChatComponent  implements OnInit {
 
   messageInput: string= '';
   userId: string = '';

@@ -30,7 +30,7 @@ export class ChatService {
         //console.log(messageContent);
         const currentMessage = this.messageSubject.getValue();
         currentMessage.push(messageContent);
-        this.messageSubject.next(messageContent);
+        this.messageSubject.next(currentMessage);
       })
     })
   }
